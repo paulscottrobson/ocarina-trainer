@@ -1,0 +1,35 @@
+;
+;	6 hole ocarina
+;
+@6-hole-clear-lower.png			; select current image.
+;
+[31,22,30]						; hole 1 (top left)
+[68,22,30]						; hole 2 (top right)
+[31,48,30]						; hole 3 (bottom left)
+[68,48,30]						; hole 4 (bottom right)
+;
+A :=
+A# :=
+B :=
+C := 123456 					; define notes. must be in chromatic order.
+C# := 12+3456 					; + means "fill left half"
+D := 13456 			 			; it doesn't matter what's on the LHS
+D# := 1234+56 					; actually.
+E := 12356
+F := 1356
+F# := 12456
+G := 3456
+G# := 2356
+A := 356
+A# := 456
+B := 256
+C := 56
+
+@6-hole.png 					; change the image with the bottom holes drawn
+[31,83,30]						; hole 5 (under left)
+[68,83,30]						; hole 6 (under right)
+
+C# := 45 						; these four use the graphic with the different 
+D := 5 							; shape underneath it.
+D# := 4
+E := 

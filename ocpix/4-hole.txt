@@ -1,0 +1,27 @@
+;
+;	4 hole ocarina
+;
+@4-hole.png
+;
+[31,30,30]						; hole 1 (top left)
+[68,30,30]						; hole 2 (top right)
+[31,70,30]						; hole 3 (bottom left)
+[68,70,30]						; hole 4 (bottom right)
+;
+A :=
+A# :=
+B :=
+C := 123456 					; define notes. must be in chromatic order.
+C# := 12+3456 					; + means "fill left half"
+D := 13456 						; it doesn't matter what's on the LHS
+D# := 1234+56 					; actually.
+E := 12356
+F := 1356
+F# := 12456
+G := 3456
+G# := 2356
+A := 356
+A# := 456
+B := 256
+C := 56
+
